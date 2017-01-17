@@ -21,5 +21,22 @@
   },
   "devDependencies": {
     "ava": "^0.17.0"
-  }
+  },
+  "dependencies": {
+    "ava": "^0.17.0",
+    "micro": "^6.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diorahman/micro-listen-test.git"
+  },
+  "keywords": [
+    "micro",
+    "test",
+    "listen"
+  ],
+  "bugs": {
+    "url": "https://github.com/diorahman/micro-listen-test/issues"
+  },
+  "homepage": "https://github.com/diorahman/micro-listen-test#readme"
 }
