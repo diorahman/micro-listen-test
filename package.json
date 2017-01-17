@@ -1,0 +1,25 @@
+{
+  "name": "micro-listen-test",
+  "version": "1.0.0",
+  "description": "micro listen for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "require": [
+      "async-to-gen/register"
+    ],
+    "files": [
+      "test.js"
+    ]
+  },
+  "author": "Dhi Aurrahman <dio@hooq.tv>",
+  "license": "MIT",
+  "peerDependencies": {
+    "micro": "^6.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0"
+  }
+}
